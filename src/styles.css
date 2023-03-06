@@ -10,3 +10,9 @@ body {
 body {
   margin: 0;
 }
+mat-card {
+  padding: 30px;
+}
+.mat-mdc-text-field-wrapper {
+  background-color: transparent !important;
+}
