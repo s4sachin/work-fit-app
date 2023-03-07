@@ -25,6 +25,7 @@
       <mat-error>Please enter Password</mat-error>
     </mat-form-field>
     <button
+      *ngIf="!isLoading"
       mat-raised-button
       color="primary"
       type="submit"
@@ -32,5 +33,6 @@
     >
       Login
     </button>
+    <mat-spinner *ngIf="isLoading"></mat-spinner>
   </form>
 </section>
